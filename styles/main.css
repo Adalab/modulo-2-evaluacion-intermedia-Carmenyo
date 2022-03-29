@@ -1,3 +1,7 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
   background-color: cadetblue;
 }
@@ -9,19 +13,26 @@ body {
   border: solid 5px rgb(86, 86, 112);
   align-items: center;
   text-align: center;
-  margin: 50px;
+  margin: 60px;
+  padding: 20px;
 }
 
 .title {
   color: rgb(247, 107, 14);
 }
 
+.container2{
+    background-color: cadetblue;
+    padding: 20px;
+}
+
 .subtitle {
-  background-color: cadetblue;
   width: 250px;
   color: aliceblue;
   text-transform: uppercase;
   padding: 10px;
+  font-weight: 600;
+   
 }
 
 .form {
@@ -31,9 +42,9 @@ body {
 }
 
 .question {
-  font-size: 15px;
-  color: rgb(247, 107, 14);
-  font-weight: 300;
+  font-size: 20px;
+  color: rgb(19, 16, 15);
+  font-weight: 900;
   text-align: center;
 }
 .select {
@@ -47,6 +58,7 @@ body {
 }
 .indication {
   text-transform: uppercase;
+  font-size: larger;
   font-weight: bolder;
   color: rgb(247, 107, 14);
 }
