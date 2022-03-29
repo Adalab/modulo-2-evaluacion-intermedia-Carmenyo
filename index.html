@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/main.css">
     <title>Dados y Apuestas</title>
 </head>
 <body>
-    
+    <div class="container">
     <h1 class="title">Dados y Apuestas</h1>
-      <p class="subtitle">Introduce aqui tu jugada:</p>
-      <form>
-        <label for="number">¿Qué número apuestas del 1 al 6?</label>
-        <select name="select" class=" js-select">
+      <p class="subtitle">Introduce aqui tu jugada</p>
+      <form class="form">
+        <label class="question" for="number">¿Qué número apuestas del 1 al 6?</label>
+        <select name="select" class=" js-select select">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -20,19 +22,20 @@
           <option value="5">5</option>
           <option value="6">6</option>
         </select>
-        <input
+        <input class="question"
         type="number"
         name="number"
         id="number"
         class="js-number"
         placeholder="¿Cuanto apuestas?"/>
 
-        <input type="submit" value="Jugar" class="js-submit" />
+        <input type="submit" value="Jugar" class="js-submit button" />
        
-        <p class="js-indication">Vamos a Jugar</p>
+        <p class="indication js-indication">¡Vamos a Jugar!</p>
 
-        <p class="js-player">Saldo: 50€</p>
+        <p class="js-player money">Saldo: 50€</p>
+      </div>
        </form>
-
+<script src="./main.js"></script>
 </body>
 </html>
