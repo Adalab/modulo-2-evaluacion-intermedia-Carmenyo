@@ -4,6 +4,9 @@
 
 body {
   background-color: cadetblue;
+  align-items: center;
+  text-align: center;
+  width: 100vh;
 }
 
 .container {
@@ -13,7 +16,7 @@ body {
   border: solid 5px rgb(86, 86, 112);
   align-items: center;
   text-align: center;
-  margin: 60px;
+  margin: auto;
   padding: 20px;
 }
 
@@ -24,6 +27,7 @@ body {
 .container2{
     background-color: cadetblue;
     padding: 20px;
+    border: solid rgb(86, 86, 112) 5px;
 }
 
 .subtitle {
@@ -39,6 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .question {
@@ -66,6 +71,11 @@ body {
 .button {
   background-color: rgb(247, 107, 14);
   border-radius: 20px;
+  font-size: large;
+  width: 100px;
+  border: none;
+  text-transform: uppercase;
+  color: aliceblue;
 }
 
 .money {
