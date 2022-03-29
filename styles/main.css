@@ -1,63 +1,61 @@
-body{
-    background-color: cadetblue;
-   
+body {
+  background-color: cadetblue;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: azure;
-    border: solid 5px rgb(86, 86, 112);
-    align-items: center;
-    text-align: center;
-    margin: 50px;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  border: solid 5px rgb(86, 86, 112);
+  align-items: center;
+  text-align: center;
+  margin: 50px;
 }
 
-.title{
-    color: rgb(247, 107, 14);
+.title {
+  color: rgb(247, 107, 14);
 }
 
 .subtitle {
-    background-color: cadetblue;
-    width: 250px;
-    color: aliceblue;
-    text-transform: uppercase;
-    padding: 10px;
-    
+  background-color: cadetblue;
+  width: 250px;
+  color: aliceblue;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.question{
- font-size: 15px;
- color: rgb(247, 107, 14);
- font-weight: 300;
- text-align: center;
-
+.question {
+  font-size: 15px;
+  color: rgb(247, 107, 14);
+  font-weight: 300;
+  text-align: center;
 }
-.select{
-    align-items: center;
-    text-align: center;
+.select {
+  align-items: center;
+  text-align: center;
+  border: solid cadetblue 3px;
+}
+.input{
     border: solid cadetblue 3px;
+    text-align: center;
+}
+.indication {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgb(247, 107, 14);
 }
 
-.indication{
-text-transform: uppercase;
-font-weight: bolder;
-color: rgb(247, 107, 14);
+.button {
+  background-color: rgb(247, 107, 14);
+  border-radius: 20px;
 }
 
-.button{
-    background-color: rgb(247, 107, 14);
-    border-radius: 20px;
-    
-
-}
-
-.money{
-    display: none;
+.money {
+  display: none;
 }
