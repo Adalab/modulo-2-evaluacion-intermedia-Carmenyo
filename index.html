@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Dados y Apuestas</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <h1 class="title">Dados y Apuestas</h1>
-    <div class= "container2">
-      <p class="subtitle">Introduce tu jugada</p>
-      <form class="form">
-        <label class="question" for="number">¿Qué número apuestas del 1 al 6?</label>
-        <select name="select" class=" js-select select">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-        </select>
-        <input class="input"
-        type="number"
-        name="number"
-        id="number"
-        class="js-number"
-        placeholder="¿Cuanto apuestas?"/>
+      <h1 class="title">Dados y Apuestas</h1>
+      <div class="container2">
+        <p class="subtitle">Introduce tu jugada</p>
+        <form class="form">
+          <label class="question" for="number"
+            >¿Qué número apuestas del 1 al 6?</label
+          >
+          <select name="select" class="js-selected select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <input
+            type="number"
+            name="number"
+            class="js-cantidad input"
+            placeholder="¿Cuanto apuestas?"
+            required
+          />
 
-        <input type="submit" value="Jugar" class="js-submit button" />
-       </div>
-        <p class="indication js-indication">¡Vamos a Jugar!</p>
+          <input type="submit" value="Jugar" class="js-play button" />
 
-        <p class="js-player money">Saldo: 50€</p>
+          <p class="indication js-result">Vamos a jugar</p>
+
+          <p class="js-saldo">Saldo: <span class="js-money"></span></p>
+
+          <div>
+            <p class="js-winner"></p>
+          </div>
+
+          <button class="badge reaload hidden js-reload button">
+            Reiniciar Juego
+          </button>
+        </form>
       </div>
-       </form>
-<script src="./main.js"></script>
-</body>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
